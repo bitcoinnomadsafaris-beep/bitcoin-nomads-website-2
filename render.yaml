@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bitcoin-nomads-website
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    # After deploying, add bitcoinomads.africa in the Render dashboard.
